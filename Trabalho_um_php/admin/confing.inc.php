@@ -7,4 +7,5 @@
     if(!$conexao){
         echo "<h2> Erro na conexão ao banco de dados </h2>";
     }
-?>
+
+    require_once('site_principal/admin/config.inc.php');    
